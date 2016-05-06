@@ -1,4 +1,3 @@
-
 import { Error } from "./Error";
 class ParseError {
 
@@ -27,7 +26,7 @@ class ParseError {
             "errors": errors
         }
 
-        return JSON.stringify(parseError);
+        return parseError;
     }
 }
 
