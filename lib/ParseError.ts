@@ -7,7 +7,7 @@ class ParseError {
         let errors = [];
         let errorType;
 
-        if (errorObj.hasOwnProperty("code") ) {
+        if (errorObj.hasOwnProperty("code")) {
 
             errorType = "mongoDBError"
             errors.push(new Error(errorObj.code, errorObj.errmsg));
@@ -18,7 +18,7 @@ class ParseError {
                 for (var field in errorObj.errors) {
                     errors.push(new Error(field, errorObj.errors[field].message));
                 }
-              }
+            }
         }
 
         parseError = {
