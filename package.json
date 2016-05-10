@@ -1,6 +1,6 @@
 {
-  "name": "asd-mongoose-error-parse",
-  "version": "0.0.1",
+  "name": "mongoose-error-parser",
+  "version": "1.0.0",
   "description": "Mongoose error message parsing",
   "main": "./lib/index.js",
   "scripts": {
