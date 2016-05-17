@@ -5,6 +5,6 @@
 
 ```bash
 git clone https://github.com/frontians-web/mongoose-error-parser.git
-cd base-service
+cd mongoose-error-parser
 npm publish
 ```
