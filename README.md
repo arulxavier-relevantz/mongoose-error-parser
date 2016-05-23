@@ -14,7 +14,7 @@ npm install
 > Type the following command to build the base mongoose-error-parser package.
 
 ```bash
-gulp
+gulp build
 ```
 
 ## Publish
